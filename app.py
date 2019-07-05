@@ -1,6 +1,7 @@
 import logging
 import asyncio
 from os import path
+import sys
 
 from hbmqtt.client import MQTTClient, ClientException
 from hbmqtt.mqtt.constants import QOS_1, QOS_2
