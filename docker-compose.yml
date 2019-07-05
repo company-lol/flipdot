@@ -1,9 +1,9 @@
 version: '2'
 services:
-  mqtt2flipdot:
+  flipdot-mqtt:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: mqtt2flipdot
+    container_name: flipdot-mqtt
     restart: unless-stopped
 
