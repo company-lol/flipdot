@@ -1,0 +1,14 @@
+; config.ini
+
+[MQTT]
+BROKER = mqtt://192.168.200.8/
+TOPIC = flipdot/#
+
+[FLIPDOT_SERVER]
+COLUMNS = 96
+ROWS = 16
+URL = http://localhost:8080/api/dots
+SIMULATOR = True
+
+[DISPLAY]
+FONT = edge-7x7-regular
