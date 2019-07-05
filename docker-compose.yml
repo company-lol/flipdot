@@ -6,4 +6,5 @@ services:
       dockerfile: Dockerfile
     container_name: flipdot-mqtt
     restart: unless-stopped
-
+    volumes:
+      - ./config.ini:/app/config.ini
