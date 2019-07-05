@@ -40,7 +40,7 @@ if __name__ == '__main__':
     logger = logging.getLogger(__name__)
 
     hbmqtt_log = logging.getLogger("hbmqtt")
-    hbmqtt_log.setLevel(logging.DEBUG)
+    hbmqtt_log.setLevel(logging.CRITICAL)
 
     config = configparser.ConfigParser()
     config_file = 'config.ini'
